@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+background: linear-gradient(90deg, #000000 12%, #b30909 100%, #4b0b02 100%) !important;
+}
+/* responsive design*/
+@media only screen and (min-width: 325px) {
+   
+}
+@media only screen and (min-width: 576px) {
+
+}
+@media only screen and (min-width: 768px) {
+
+}
+@media only screen and (min-width: 992px) {
+
+}
+@media only screen and (min-width: 1200px) {
+    
+
+}
+@media only screen and (min-width: 1400px) {
+
+}
+.navbar-brand{
+    color: #ff0000 !important;
+    font-weight: 700;
+    font-size: 30px !important;
+}
+.nav-design .aa{
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 20px ;
+}
+.nav-design .aa:hover{
+   background-color: #b30909;
+   border-radius: 10px;
+       color: rgb(255, 255, 255);
+
+}
+
+.img1{
+background-image: url("imgs7/1.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+width: 100vw;
+height: 100vh;
+
+}
+.img2{
+background-image: url("imgs7/4.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+width: 100vw;
+height: 100vh;
+
+}
+.img3{
+background-image: url("imgs7/3.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+width: 100vw;
+height: 100vh;
+
+}
+
+.text-reset{
+    text-decoration: none;
+}
+
+
+.btns-container{
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.btns-container .btn{
+    margin: 10px;
+    background-color: #680303;
+    color: #fff;
+}
+.btns-container .btn:hover{
+    background-color: #550303;
+    color: #fff;
+}
+
+
+h2{
+    color: #fff;
+    font-size: 30px !important;
+    margin:50px 0 100px 0 !important;
+    
+}
+.about{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    background-color: #9c07073a;
+    padding: 20px;
+    border-radius: 5px;
+}
+.actor{
+    border-radius: 50%;
+    border:3px solid #3a0801 ;
+}
+.actor-container p{
+    color: #fff;
+    margin: 10px;
+    position: relative;
+}
+.actor-container{
+     display: flex;
+    flex-direction: column !important;
+    align-items: center !important;
+}
+.owl-carousel img{
+    transition: transform 1s;
+}
+.owl-carousel img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.2);
+}
+.owl-carousel div{
+    position: relative;
+}
+.dropdown-item{
+    color: #000000 !important;
+}
+.navbar-toggler{
+    background-color: #fff !important;
+}
+.navbar-collapse{
+        text-align: center;
+        
+}
